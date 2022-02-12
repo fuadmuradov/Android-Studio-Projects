@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+       <Button
+           android:id="@+id/first_btn"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           android:onClick="gotoFirst"
+           android:text="1st fragment">
+
+
+       </Button>
+
+       <Button
+           android:id="@+id/second_btn"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           android:onClick="gotoSecond"
+           android:text="2nd fragment">
+
+
+       </Button>
+
+</LinearLayout>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frame_layout">
+
+</FrameLayout>
+
+</LinearLayout>
